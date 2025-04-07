@@ -33,24 +33,32 @@ Os dados de vendas são importados diretamente de arquivos CSV hospedados no Git
 - Cálculo do custo médio de frete por loja.
 - Comparação percentual do custo de frete entre as lojas.
 
+#### **Desempenho Geográfico**
+- Análise da distribuição geográfica das vendas por loja.
+- Criação de mapas de calor para visualizar a densidade de vendas por região.
+- Agrupamento de vendas por regiões do Brasil (Sul, Sudeste/Centro-Oeste, Norte/Nordeste).
+
 ### 3. Visualizações
 - Gráfico de barras e linhas para comparar o faturamento e a satisfação dos clientes por loja.
 - Gráfico de pizza para mostrar a distribuição de categorias de produtos na loja com maior faturamento.
 - Gráfico de dispersão para analisar a relação entre preço, custo de frete e avaliação dos clientes.
+- Mapas de calor para visualizar a densidade geográfica das vendas.
+- Gráficos de barras e boxplots para análise de desempenho por região.
 
 ## Tecnologias Utilizadas
 - **Python**: Linguagem principal para análise de dados.
 - **Pandas**: Manipulação e análise de dados.
 - **Matplotlib** e **Seaborn**: Criação de gráficos e visualizações.
 - **Jupyter Notebook**: Ambiente interativo para desenvolvimento e execução do código.
+- **Scipy**: Cálculo de densidade para mapas de calor.
 
 ## Como Executar o Projeto
 1. Certifique-se de ter o Python instalado em sua máquina.
 2. Instale as dependências necessárias:
    ```bash
-   pip install pandas matplotlib seaborn
-3.Abra o arquivo AluraStoreBr.ipynb em um ambiente Jupyter Notebook ou similar.
-4.Execute as células sequencialmente para reproduzir as análises e visualizações.
+   pip install pandas matplotlib seaborn scipy
+3. Abra o arquivo AluraStoreBr.ipynb em um ambiente Jupyter Notebook ou similar.
+4. Execute as células sequencialmente para reproduzir as análises e visualizações.
 
 Licença
 Este projeto está licenciado sob a MIT License.
